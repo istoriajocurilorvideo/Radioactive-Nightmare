@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'font1';
+    src: url('Electrolize-Regular.ttf');
+}
+body
+{
+	background-color: rgb(122, 0, 0);
+	text-align: center;
+}
+img
+{
+	width:500px;
+	height: 250px;
+}
+table
+{
+	margin: auto;
+	border:5px solid black;
+	text-decoration: underline;
+	border-radius: 5px;
+}
+p
+{
+	font-family: 'font1';
+	font-size: 30px;
+	font-weight: bold;
+}
+input
+{
+	width:20%;
+	height: 40px;
+	background: rgb(0 , 0 , 57);
+	color:white;
+	border-radius: 5px;
+}

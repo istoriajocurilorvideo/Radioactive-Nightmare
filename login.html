@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dark Blocks</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="file_css//style.css">
+	<link rel="stylesheet" type="text/css" href="file_css//login_style.css">
+	<link rel="shortcut icon" href="icons//myicon.ico"> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").fadeToggle();
+    });
+});
+</script>
+</head>
+<body bgcolor="4F0200">
+	<div class="menu">
+			<div id="flip">
+			<a href="index.html">
+				<strong class="dim">HOMEPAGE</strong>
+			</a>
+			</div>
+	</div>
+	<div class="view">
+		    <form action="first_page.html" method="post" >
+      <div class="mytitle">
+         <p>Sign Up</p>
+      </div>
+      <div class="mydescr">
+        <p>If you want a complet registration of this website , please contact us</p>
+      </div>
+      <div class="myin">
+        <input type="text" class="button" id="email" placeholder="Username">
+        <input type="text" class="button" id="email" placeholder="Password">
+        <input type="text" class="button" id="email" placeholder="name@something.com">
+        <input type="submit" class="button" id="sign" value="SIGN UP" onclick="index.html">
+      </div>
+    </form> 
+	</div>
+</body>
+</html>

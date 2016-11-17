@@ -1,0 +1,51 @@
+.view
+{
+	font-family: 'font1';
+	background: rgb(100, 3, 0);
+	width:200px;
+	height:250px;
+	padding:70px;
+	border-radius: 15px;
+	box-shadow: 4px 4px 4px rgb(47, 1, 0);
+}
+#textfield
+{
+	font-family: 'font1';
+	font-weight: bold;
+}
+#textfield #textfield1 
+{
+	font-size: 50px;
+}
+#textfield #textfield2 
+{
+	font-size:25px;
+}
+input{
+	align-items: center;
+	width: 80%;
+  margin-left: 10%;
+  margin-bottom: 25px;
+  height: 40px;
+  border-radius: 5px;
+  outline: 0;
+}
+button
+{
+	background: #e74c3c;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover {
+  box-shadow: 1px 1px 5px #555;
+}
+button:active {
+  box-shadow: 1px 1px 7px #222;
+}
+@font-face {
+    font-family: 'font1';
+    src: url('Electrolize-Regular.ttf');
+}

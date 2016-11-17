@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+
+	<link rel="stylesheet" type="text/css" href="file_css//style.css">
+	<link rel="shortcut icon" href="icons//myicon.ico"> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").fadeToggle();
+    });
+});
+</script>
+</head>
+</html>
+<body>
+	<div class="menu">
+			<div id="flip">
+			<a href="#SHOW IT">
+				<strong class="dim">MENU</strong>
+			</a>
+			</div>
+			<div class="right">
+				<a href="login.html">
+					<strong  class="dim">SIGN UP</strong>
+				</a>
+			</div>
+	</div>
+	<div id="panel">
+	<div id="menu2">
+			<h1 class="block">SELECTEAZA DIN ACEST MENIU DRAGUT</h1>
+			<ul id="nav_block">
+				<li><a href="first_page.html">home</a></li>
+				<li><a  href="about.html">about us</a></li>
+			</ul>
+	</div></div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.view
+{
+  margin-top: 25%;
+}
+
+body {
+  color: white;
+  text-align: center;
+}
+
+
+form {
+  width: 450px;
+  margin: 17% auto;
+}
+
+
+.mytitle {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'font1';
+}
+
+
+.mydescr {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin: -2px 0 45px;
+  font-family: 'font1';
+}
+
+
+.myin {
+  align-items: center;
+}
+
+
+.button {
+  height: 44px;
+  border: none;
+}
+
+  
+#email {
+  width: 75%;
+  background: #FDFCFB;
+  font-family: 'font1';
+  color: #737373;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+
+
+#sign {
+  width: 25%;
+  height: 46px;
+  background: #FF6448;
+  font-family: 'font1';
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  margin-top:20px;
+}
+  
+
+#sign:hover {
+  background: #A31900;
+}
+  
+
+input:focus {
+  outline: none;
+  outline: 2px solid #E86C8D;
+  box-shadow: 0 0 2px #E86C8D;
+}
+@font-face {
+    font-family: 'font1';
+    src: url('Electrolize-Regular.ttf');
+}
